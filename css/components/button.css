@@ -1,0 +1,28 @@
+.btn-sm {
+  color: white;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-weight: bolder;
+  background-color: #D4312D;
+  font-size: 12px;
+}
+
+.btn-sm:hover {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+}
+.btn-lg {
+	color: white;
+  border: 1px solid white;
+	border-radius: 3px;
+	padding: 10px 15px;
+  font-size: 25px;
+}
+
+.btn-lg:hover {
+	text-decoration: none;
+	color: white;
+  border: 2px solid white;
+  font-weight: bolder;
+}

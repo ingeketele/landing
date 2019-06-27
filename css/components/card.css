@@ -1,0 +1,26 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+	height: 300px;
+  width: 250px;
+	color: white;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.card:hover {
+  border: 2px solid white;
+}
+
+.card h2 {
+  color: white;
+}
+
+.fas, .far {
+  font-size: 100px;
+  padding: 16px;
+}
+

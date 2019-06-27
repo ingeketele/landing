@@ -1,0 +1,43 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Halant|Nunito+Sans&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* CSS components */
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  background: linear-gradient(rgba(203, 196, 192, 0.63), rgba(151, 172, 180, 0.63));
+}
+
+h1, h2, h3, h4, a {
+  font-family: 'Halant', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+.container h2 {
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  background-color: #0E1F23;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}

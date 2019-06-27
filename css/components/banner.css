@@ -1,0 +1,35 @@
+.banner {
+	color: white;
+  width: 100%;
+  height: 500px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+  position: relative;
+}
+
+.banner h1 {
+	font-size: 50px;
+	font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.banner p {
+	font-size: 20px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin: 0 0 80px 0;
+  padding: 0;
+}
+
+#logo {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  height: 100px;
+  width: 100px;
+}
